@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13d75e5e-2ad6-44a5-af87-852adaf49e10" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1i9iycg4oCZAD0herpEdgMIhD6e" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Project3/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Project4/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Project5/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (5)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Project6/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Project7/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html (5)" />
+        <item itemvalue="JavaScript Debug.index.html (4)" />
+        <item itemvalue="JavaScript Debug.index.html (3)" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13d75e5e-2ad6-44a5-af87-852adaf49e10" name="Default Changelist" comment="" />
+      <created>1601326463904</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601326463904</updated>
+      <workItem from="1601326464953" duration="3412000" />
+      <workItem from="1601398000634" duration="9601000" />
+      <workItem from="1601462167932" duration="982000" />
+      <workItem from="1601468732793" duration="6607000" />
+      <workItem from="1601502993605" duration="4659000" />
+      <workItem from="1601549333639" duration="3616000" />
+      <workItem from="1601557336991" duration="16000" />
+      <workItem from="1601557541220" duration="6959000" />
+      <workItem from="1601570450063" duration="321000" />
+      <workItem from="1601585886552" duration="8553000" />
+      <workItem from="1601766502979" duration="3071000" />
+      <workItem from="1602360220638" duration="12124000" />
+      <workItem from="1602455882715" duration="194000" />
+      <workItem from="1602457662589" duration="4345000" />
+      <workItem from="1602529595690" duration="77000" />
+      <workItem from="1602534857551" duration="2728000" />
+      <workItem from="1602537658880" duration="7717000" />
+      <workItem from="1602598248006" duration="1403000" />
+      <workItem from="1602708488670" duration="44000" />
+      <workItem from="1602713383064" duration="2476000" />
+      <workItem from="1602787699486" duration="2470000" />
+      <workItem from="1602842989757" duration="1192000" />
+      <workItem from="1603241435379" duration="3131000" />
+      <workItem from="1603278195543" duration="11877000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="766" y="521" key="#Custom_Plugin_Repositories" timestamp="1602783622342">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="766" y="521" key="#Custom_Plugin_Repositories/0.0.1920.1040@0.0.1920.1040" timestamp="1602783622342" />
+    <state x="761" y="27" width="1095" height="985" key="#HTML" timestamp="1601400571611">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="761" y="27" width="1095" height="985" key="#HTML/0.0.1920.1040@0.0.1920.1040" timestamp="1601400571611" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602783626271">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602783626271" />
+    <state x="674" y="254" key="SettingsEditor" timestamp="1603281101276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="674" y="254" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603281101276" />
+    <state width="498" height="398" key="SwitcherDM" timestamp="1601403801127">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="398" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1601403801127" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1602448927837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602448927837" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601471734376">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601471734376" />
+  </component>
+</project>

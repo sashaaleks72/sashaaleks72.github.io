@@ -233,11 +233,12 @@ a:focus,a:active{
     width: 165px;
     line-height: 28px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .reviews{
     background: rgba(253, 203, 127, 0.5);
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 50px 0 50px 0;
 }
 
@@ -344,5 +345,54 @@ a:focus,a:active{
     line-height: 22px;
 }
 
+@media(max-width: 1170px){
+    .container{
+        width: 100%;
+    }
 
+    .catalog__item{
+        flex: 0 1 33.3%;
+    }
+
+    .catalog__price{
+        line-height: 18px;
+    }
+
+    .footer__row{
+        padding: 0 20px 0 20px;
+    }
+
+    .header__row{
+        padding: 0 20px 0 20px;
+    }
+
+    .where__text{
+        font-size: 16px;
+    }
+
+    .where__row{
+        padding: 0 20px 0 20px;
+    }
+
+    .reviews__row{
+        padding: 0 20px 0 20px;
+    }
+
+    .catalog__row{
+        padding: 0 20px 0 20px;
+        justify-content: space-around;
+    }
+
+    .catalog h2{
+        padding: 0 20px 0 20px;
+    }
+
+    .why__row{
+        padding: 0 20px 0 20px;
+    }
+
+    .why h2{
+        padding: 0 20px 0 20px;
+    }
+}
 

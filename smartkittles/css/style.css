@@ -126,7 +126,7 @@ a:focus,a:active{
 
 .offer__text p{
     margin-bottom: 15px;
-    width: 450px;
+    max-width: 450px;
 }
 
 .offer__button a{
@@ -394,5 +394,6 @@ a:focus,a:active{
     .why h2{
         padding: 0 20px 0 20px;
     }
+
 }
 

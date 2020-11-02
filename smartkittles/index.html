@@ -2,216 +2,207 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!--<link rel="stylesheet" href="css/style.css">-->
+    <link rel="stylesheet" href="css/style.css">
     <title>MyWebPage</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+    </style>
 </head>
 <body>
-    <div class="content">
+    <div class="wrapper">
         <header class = "header">
-            <div class="logo">
-                <div class="logo__img">
-                    <a href = "#">
-                        <img src="img/main_logo.svg" alt="main_logo">
-                    </a>
+            <div class="container">
+                <div class="header__row">
+                    <div class="logo">
+                        <div class="logo__img"><a href="#"><img src="img/main_logo.svg" alt="logo"></a></div>
+                        <div class="logo__text">SmartЧайники.ua</div>
+                    </div>
+                    <nav class="nav">
+                            <ul class="nav__row">
+                                <li><a href="#">Главная</a></li>
+                                <li><a href="#">Каталог</a></li>
+                                <li><a href="#">Отзывы</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                    </nav>
+                    <div class="header__phone">+380951234567</div>
+                    <div class="header__basket"><a href="#"><img src="img/basket.svg" alt="basket"></a></div>
                 </div>
-                <div class="logo__text">SmartЧайники.ua</div>
-            </div>
-            <nav class="nav-menu">
-                <ul>
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="#">Каталог</a></li>
-                    <li><a href="#">Отзывы</a></li>
-                    <li><a href="#">Контакты</a></li>
-                </ul>
-            </nav>
-            <div class="header__number-item">+380951234567</div>
-            <div class="header__basket-img">
-                <a href = "#">
-                    <img src="img/basket.svg" alt="basket-img">
-                </a>
             </div>
         </header>
-        <main class = "main-content">
-            <div class="offer-structure">
-                <div class="offer-structure__img">
-                    <img src="img/main_img.png" alt="kettle">
-                </div>
-                <div class="offer-structure__main-text">
-                    <h1>Бери умный чайник, если живешь в 21-ом веке</h1>
-                    <p>Интернет-магазин чайников даст тебе возможность определиться в каком веке ты живешь!</p>
-                </div>
-                <div class="offer-structure__main-button">
-                    <a href="#">Посмотреть чайники</a>
+        <div class="content">
+            <div class="offer">
+                <div class="container">
+                    <div class="offer__row">
+                        <div class="offer__img">
+                            <img src="img/main_img.png" alt="teapot">
+                        </div>
+                        <div class="offer__text">
+                            <p>Бери умный чайник, если живешь в 21-ом веке</p>
+                            <p>Интернет-магазин чайников даст тебе возможность определиться в каком веке ты живешь!</p>
+                            <div class="offer__button"><a href="#">Посмотреть чайники</a></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="advantages">
-                <h2>Почему именно мы?</h2>
-                <ol>
-                    <li>
-                        <img src="img/item1.svg" alt="check-mark">
-                        <h3>Надёжность</h3>
-                        <p>Наши чайники долговечны и процент гарантийных ремонтов сводится к нулю</p>
-                    </li>
-                    <li>
-                        <img src="img/item2.svg" alt="strong-hand">
-                        <h3>Хороший материал</h3>
-                        <p>Чайники произведены из нержавеющей стали</p>
-                    </li>
-                    <li>
-                        <img src="img/item3.svg" alt="delivery-car">
-                        <h3>Быстрая доставка</h3>
-                        <p>Доставка в течении 1-2 дней по всей Украине</p>
-                    </li>
-                </ol>
+            <div class="why">
+                <div class="container">
+                    <h2>Почему именно мы?</h2>
+                    <div class="why__row">
+                        <div class="item__row">
+                            <div class="item__img"><img src="img/item1.svg" alt="check-mark_icon"></div>
+                            <div class="item__text">
+                                <h3>Надежность</h3>
+                                <p>Наши чайники долговечны и процент гарантийных ремонтов сводится к нулю</p>
+                            </div>
+                        </div>
+                        <div class="item__row">
+                            <div class="item__img"><img src="img/item2.svg" alt="hand_icon"></div>
+                            <div class="item__text">
+                                <h3>Хороший материал</h3>
+                                <p>Чайники произведены из нержавеющей стали</p>
+                            </div>
+                        </div>
+                        <div class="item__row">
+                            <div class="item__img"><img src="img/item3.svg" alt="delivery_car_icon"></div>
+                            <div class="item__text">
+                                <h3>Быстрая доставка</h3>
+                                <p>Доставка в течении 1-2 дней по всей Украине</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="catalog">
-                <h2>Каталог товаров</h2>
-                <table style="text-align: center">
-                    <tr>
-                        <th>№</th>
-                        <th>Наименование товара</th>
-                        <th>Изображение</th>
-                        <th>Цена</th>
-                    </tr>
-                    <tr>
-                        <td>1.</td>
-                        <td>Электрочайник XIAOMI <br>Viomi Smart Kettle Black</td>
-                        <td><img src="img/catalog_1.png" width="137"></td>
-                        <td>1199 грн</td>
-                    </tr>
-                    <tr>
-                        <td>2.</td>
-                        <td>Электрочайник TEFAL <br>DIGITAL KO851830</td>
-                        <td><img src="img/catalog_2.png" width="137"></td>
-                        <td>2249 грн</td>
-                    </tr>
-                    <tr>
-                        <td>3.</td>
-                        <td>Электрочайник XIAOMI <br>MiJia Kettle</td>
-                        <td><img src="img/catalog_3.png" width="137"></td>
-                        <td>1199 грн</td>
-                    </tr>
-                    <tr>
-                        <td>4.</td>
-                        <td>Умный электрочайник <br>BOSCH TWK 7203</td>
-                        <td><img src="img/catalog_4.png" width="137"></td>
-                        <td>4299 грн</td>
-                    </tr>
-                    <tr>
-                        <td>5.</td>
-                        <td>Электрочайник PHILIPS <br>Viva Collection</td>
-                        <td><img src="img/catalog_5.png" width="137"></td>
-                        <td>1699 грн</td>
-                    </tr>
-                    <tr>
-                        <td>6.</td>
-                        <td>Умный электрочайник <br>Concept RK-3181</td>
-                        <td><img src="img/catalog_6.png" width="137"></td>
-                        <td>2949 грн</td>
-                    </tr>
-                    <tr>
-                        <td>7.</td>
-                        <td>Электрочайник Hotpoint-<br>Ariston WK 24E UP0</td>
-                        <td><img src="img/catalog_7.png" width="137"></td>
-                        <td>2199 грн</td>
-                    </tr>
-                    <tr>
-                        <td>8.</td>
-                        <td>Умный электрочайник <br>BOSCH TWK5P475</td>
-                        <td><img src="img/catalog_8.png" width="137"></td>
-                        <td>1799 грн</td>
-                    </tr>
-                </table>
+                <div class="container">
+                    <h2>Каталог товаров</h2>
+                    <div class="catalog__row">
+                        <div class="catalog__item">
+                            <div class="catalog__img">
+                                <img src="img/catalog_1.png" alt="teapot">
+                            </div>
+                            <div class="catalog__name">Электрочайник XIAOMI Viomi Smart Kettle Black</div>
+                            <div class="catalog__price">1199 грн</div>
+                            <div class="catalog__button"><a href="#">Купить</a></div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__img">
+                                <img src="img/catalog_2.png" alt="teapot">
+                            </div>
+                            <div class="catalog__name">Электрочайник TEFAL DIGITAL KO851830</div>
+                            <div class="catalog__price">2249 грн</div>
+                            <div class="catalog__button"><a href="#">Купить</a></div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__img">
+                                <img src="img/catalog_3.png" alt="teapot">
+                            </div>
+                            <div class="catalog__name">Электрочайник XIAOMI MiJia Kettle</div>
+                            <div class="catalog__price">1199 грн</div>
+                            <div class="catalog__button"><a href="#">Купить</a></div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__img">
+                                <img src="img/catalog_4.png" alt="teapot">
+                            </div>
+                            <div class="catalog__name">Умный электрочайник BOSCH TWK 7203 </div>
+                            <div class="catalog__price">4299 грн</div>
+                            <div class="catalog__button"><a href="#">Купить</a></div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__img">
+                                <img src="img/catalog_5.png" alt="teapot">
+                            </div>
+                            <div class="catalog__name">Электрочайник PHILIPS Viva Collection</div>
+                            <div class="catalog__price">1699 грн</div>
+                            <div class="catalog__button"><a href="#">Купить</a></div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__img">
+                                <img src="img/catalog_6.png" alt="teapot">
+                            </div>
+                            <div class="catalog__name">Умный электрочайник Concept RK-3181</div>
+                            <div class="catalog__price">2949 грн</div>
+                            <div class="catalog__button"><a href="#">Купить</a></div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__img">
+                                <img src="img/catalog_7.png" alt="teapot">
+                            </div>
+                            <div class="catalog__name">Электрочайник Hotpoint-Ariston WK 24E UP0</div>
+                            <div class="catalog__price">2199 грн</div>
+                            <div class="catalog__button"><a href="#">Купить</a></div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__img">
+                                <img src="img/catalog_8.png" alt="teapot">
+                            </div>
+                            <div class="catalog__name">Умный электрочайник BOSCH TWK5P475</div>
+                            <div class="catalog__price">1799 грн</div>
+                            <div class="catalog__button"><a href="#">Купить</a></div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="reviews">
-                <div class="reviews__heading">
+                <div class="container">
                     <h2>Отзывы от наших покупателей</h2>
-                </div>
-                <div class="reviews-columns">
-                    <div class="reviews-columns__item1">
-                        <img src="img/review_logo1.svg">
-                        <h4>Александр</h4>
-                        <p>Отличный чайник, очень по дизайну нравится, на вид и ощупь добротный, отдельно обратил внимание на контактную группу сделано качественно. Греет воду хорошо, рекомендую.</p>
-                    </div>
-                    <div class="reviews-columns__item2">
-                        <img src="img/review_logo2.svg">
-                        <h4>Наталия</h4>
-                        <p>Хороший чайник, быстро кипятит воду, но слегка шумноват. Используем ковш-фильтр для наливания воды, но воду наливать неудобно так как толком не подсунуть его, чтобы налить. Приходится держать его чуть выше. После закипания крышка гарячая, нужно дать чайнику остыть, прежде чем наливать/доливать воду</p>
-                    </div>
-                    <div class="reviews-columns__item3">
-                        <img src="img/review_logo3.svg">
-                        <h4>Владимир</h4>
-                        <p>В восторге! Купил благодаря отзывам. И не ошибся! Кипятит быстро и сурово. Глаз радует неимоверно. Рекомендую.</p>
+                    <div class="reviews__row">
+                        <div class="reviews__item">
+                            <div class="reviews__img"><img src="img/review_logo1.svg" alt="reviews-icon_1"></div>
+                            <div class="reviews__name">Александр</div>
+                            <div class="reviews__comment">Отличный чайник, очень по дизайну нравится, на вид и ощупь добротный, отдельно обратил внимание на контактную группу сделано качественно. Греет воду хорошо, рекомендую.</div>
+                        </div>
+                        <div class="reviews__item">
+                            <div class="reviews__img"><img src="img/review_logo2.svg" alt="reviews-icon_2"></div>
+                            <div class="reviews__name">Наталия</div>
+                            <div class="reviews__comment">Хороший чайник, быстро кипятит воду, но слегка шумноват. Используем ковш-фильтр для наливания воды, но воду наливать неудобно так как толком не подсунуть его, чтобы налить. Приходится держать его чуть выше. После закипания крышка гарячая, нужно дать чайнику остыть, прежде чем наливать/доливать воду</div>
+                        </div>
+                        <div class="reviews__item">
+                            <div class="reviews__img"><img src="img/review_logo3.svg" alt="reviews-icon_3"></div>
+                            <div class="reviews__name">Владимир</div>
+                            <div class="reviews__comment">В восторге! Купил благодаря отзывам. И не ошибся! Кипятит быстро и сурово. Глаз радует неимоверно. Рекомендую.</div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="location">
-                <div class="location__heading">
+            <div class="where">
+                <div class="container">
                     <h2>Где мы находимся?</h2>
-                </div>
-                <div class="location__text">
-                    <h3>Офис</h3>
-                    <p>Украина, г. Харьков ул. Маршала Бажанова, 21/23<br>
-                        +38 095 123 45 67<br>
-                        Email: smartteapots@gmail.com
-                    </p>
-                </div>
-                <div class="icons">
-                    <div class="icons__elem1"><a href = "#"><img src="img/vk_logo.svg" alt="vk-logo"></a></div>
-                    <div class="icons__elem2"><a href = "#"><img src="img/instagram_logo.svg" alt="inst-logo"></a></div>
-                    <div class="icons__elem3"><a href = "#"><img src="img/telegram_logo.svg" alt="telegram-logo"></a></div>
-                </div>
-                <div class="location__map-image">
-                    <img src="img/map_img.png" alt="map-img">
-                </div>
-                <div class="location__form">
-                    <h2>Остались вопросы? Напишите нам :)</h2>
-                    <form>
-                        <div class="location__field-name">
-                            <h3>Введите своё имя: </h3>
-                            <input type="text" value="" placeholder="Например: Василий">
+                    <div class="where__row">
+                        <div class="where__block">
+                            <div class="where__heading">Офис</div>
+                            <div class="where__text">Украина, г. Харьков ул. Маршала Бажанова, 21/23<br>+38 095 123 45 67<br>Email: smartteapots@gmail.com</div>
+                            <div class="icons__row icons">
+                                <a href="#"><img src="img/vk_logo.svg" alt="vk-icon"></a>
+                                <a href="#"><img src="img/instagram_logo.svg" alt="insta-icon"></a>
+                                <a href="#"><img src="img/telegram_logo.svg" alt="telegram-icon"></a>
+                            </div>
                         </div>
-                        <div class="location__topic">
-                            <h3>Выберите тему вашего вопроса</h3>
-                            <select name = "topic">
-                                <option value="break">Поломка</option>
-                                <option value="choice-problem">Проблема с выбором</option>
-                                <option value="delivery">Доставка</option>
-                            </select>
+                        <div class="where__map">
+                            <img src="img/map_img.png" alt="map">
                         </div>
-                        <div class="location__text-field">
-                            <h3>Введите ваш вопрос: </h3>
-                            <textarea name="text" cols="30" rows="5"></textarea>
-                        </div>
-                        <div class="location__check-box">
-                            Просто поставьте здесь галочку<input type="checkbox" value="yes">
-                        </div>
-                        <div class="location__button">
-                            <button type="submit">Отправить</button>
-                        </div>
-                    </form>
+                    </div>
                 </div>
             </div>
-        </main>
-        <footer>
-            <div class="logo">
-                <div class="logo__img">
-                    <a href = "#">
-                        <img src="img/main_logo.svg" alt="main_logo">
-                    </a>
+        </div>
+        <footer class = "footer">
+            <div class="container">
+                <div class="footer__row">
+                    <div class="logo">
+                        <div class="logo__img"><a href="#"><img src="img/main_logo.svg" alt="logo"></a></div>
+                        <div class="logo__text">SmartЧайники.ua</div>
+                    </div>
+                    <div class="footer__text">2020 © Все права защищены</div>
+                    <div class="icons">
+                        <a href="#"><img src="img/vk_logo_white.svg" alt="vk-icon"></a>
+                        <a href="#"><img src="img/instagram_logo_white.svg" alt="insta-icon"></a>
+                        <a href="#"><img src="img/telegram_logo_white.svg" alt="telegram-icon"></a>
+                    </div>
+                    <div class="footer__up">
+                        <a href="#"><img src="img/button-up.svg" alt=button-up></a>
+                    </div>
                 </div>
-                <div class="logo__text">SmartЧайники.ua</div>
-            </div>
-            <div class="footer_text">
-                <p>2020 © Все права защищены</p>
-            </div>
-            <div class="icons">
-                <div class="icons__elem1"><a href = "#"><img src="img/vk_logo_white.svg" alt="vk-logo"></a></div>
-                <div class="icons__elem2"><a href = "#"><img src="img/instagram_logo_white.svg" alt="inst-logo"></a></div>
-                <div class="icons__elem3"><a href = "#"><img src="img/telegram_logo_white.svg" alt="telegram-logo"></a></div>
-            </div>
-            <div class="button-up">
-                <a href = "#"><img src="img/button-up.svg" alt="button-up"></a>
             </div>
         </footer>
     </div>
